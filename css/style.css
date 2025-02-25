@@ -279,5 +279,23 @@ section {
 .extra-space {
   height: 200vh;
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Sesuaikan ukuran teks */
+    }
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .social-icons img {
+        width: 40px; /* Ukuran ikon lebih kecil */
+        height: 40px;
+    }
+    .download-btn {
+        width: 80%; /* Agar tidak terlalu besar */
+        max-width: 300px;
+    }
+}
 
 /* Subscribe YouTube Tamzidan Mahdiyin */
