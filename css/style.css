@@ -200,7 +200,7 @@ section {
   height: 50vh;
   border-radius: 100%;
   overflow: hidden;
-  box-shadow: 0 0 40px rgb(58, 211, 3);
+  box-shadow: 0 0 50px rgb(58, 211, 3);
 }
 
 .main-container .image img {
@@ -263,13 +263,19 @@ section {
   }
 }
 
-
-
-
-@media (max-width: 768px) {
+@media (max-width: 440px) {
   .main-container .image {
-    width: 35vh;  /* Ukuran lebih besar di mobile */
-    height: 35vh;
-    box-shadow: 0 0 25px rgb(58, 211, 3); /* Efek glow lebih besar */
+    width: 60%;
+    height: 30%;
+  }
+
+  .main-container .content {
+    width: 80%;
+  }
+
+  .main-container button {
+    margin-top: 15px;
   }
 }
+/* Subscrbe YouTube Tamzidan Mahdiyin */
+
