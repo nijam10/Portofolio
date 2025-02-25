@@ -13,8 +13,7 @@ body {
   width: 100%;
   height: 100vh;
   background-image: url("../img/background.jpg");
-  overflow-x: hidden;
-  overlow-y: auto;
+  overflow: hidden;
 }
 
 nav {
@@ -197,11 +196,11 @@ section {
 }
 
 .main-container .image {
-  width: 50vh;
-  height: 50vh;
+  width: 25vh;
+  height: 25vh;
   border-radius: 100%;
   overflow: hidden;
-  box-shadow: 0 0 50px rgb(58, 211, 3);
+  box-shadow: 0 0 15px rgb(58, 211, 3);
 }
 
 .main-container .image img {
@@ -264,19 +263,90 @@ section {
   }
 }
 
-@media (max-width: 440px) {
-  .main-container .image {
-    width: 60%;
-    height: 30%;
-  }
 
-  .main-container .content {
-    width: 80%;
-  }
-
-  .main-container button {
-    margin-top: 15px;
-  }
+@media (max-width: 1366px) {
+    html {
+        font-size: 75%;
+    }
 }
-/* Subscrbe YouTube Tamzidan Mahdiyin */
+
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    #hamburger-menu {
+        display: inline-block;
+    }
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #fff;
+        width: 30rem;
+        height: 100vh;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+    .navbar .navbar-nav a {
+        color: var(--bg);
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform: scaleX(0.2)
+    }
+
+    .about .row {
+        flex-wrap: wrap;
+    }
+    .about .row .about-img img {
+        height: 24rem;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .about .row .content {
+        padding: 0;
+    }
+
+    .about .row .content {
+        font-size: 1.6rem;
+    }
+
+    .menu p {
+        font-size: 1.2rem;
+    }
+
+    .contact .row {
+        flex-wrap: wrap;
+    }
+
+    .contact .row .map {
+        height: 30rem;
+    }
+
+    .contact .row form {
+        padding-top: 0;
+    }
+}
+
+
+/* Phone/Mobile */
+@media (max-width: 450px) {
+    html {
+        font-size: 65%;
+    }
+}  ubah ini saja
 
