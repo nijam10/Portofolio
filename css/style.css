@@ -1,4 +1,4 @@
-/* Subscribe YouTube Tamzidan Mahdiyin */
+/* Subscrbe YouTube Tamzidan Mahdiyin */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
@@ -11,9 +11,9 @@
 
 body {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-image: url("../img/background.jpg");
-  overflow-y: auto; /* Memungkinkan scroll vertikal */
+  overflow: auto;
 }
 
 nav {
@@ -29,6 +29,8 @@ nav {
   justify-content: space-around;
   align-items: center;
 }
+
+/* Subscrbe YouTube Tamzidan Mahdiyin */
 
 .logo {
   color: white;
@@ -103,7 +105,7 @@ nav {
 
 section {
   width: 100%;
-  min-height: 150vh; /* Memastikan cukup tinggi agar bisa di-scroll */
+  height: 90vh;
 }
 
 .main-container {
@@ -119,6 +121,8 @@ section {
   width: 40%;
   min-height: 100px;
 }
+
+/* Subscrbe YouTube Tamzidan Mahdiyin */
 
 .content h1 {
   font-size: clamp(1rem, 1rem + 5vw, 1.8rem);
@@ -246,7 +250,6 @@ section {
   .main-container .content {
     width: 80%;
   }
-
   .social-links i {
     width: 2.5rem;
     height: 2.5rem;
@@ -274,28 +277,5 @@ section {
     margin-top: 15px;
   }
 }
+/* Subscrbe YouTube Tamzidan Mahdiyin */
 
-/* Tambahkan elemen kosong agar halaman bisa diuji scroll */
-.extra-space {
-  height: 200vh;
-}
-@media (max-width: 768px) {
-    h1 {
-        font-size: 24px; /* Sesuaikan ukuran teks */
-    }
-    .social-icons {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-    }
-    .social-icons img {
-        width: 40px; /* Ukuran ikon lebih kecil */
-        height: 40px;
-    }
-    .download-btn {
-        width: 80%; /* Agar tidak terlalu besar */
-        max-width: 300px;
-    }
-}
-
-/* Subscribe YouTube Tamzidan Mahdiyin */
